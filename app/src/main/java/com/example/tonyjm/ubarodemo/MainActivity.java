@@ -87,8 +87,7 @@ public class MainActivity extends AppCompatActivity {
         btnRecibir.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent objIntent = new Intent(MainActivity.this, PagarActivity.class);
-                startActivity(objIntent);
+                //TODO: pantalla solicitar
             }
         });
 

@@ -1,13 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    tools:context="com.example.tonyjm.ubarodemo.SimulatePaymentActivity">
+    tools:context="com.example.tonyjm.ubarodemo.SimulatePaymentActivity"
+    android:orientation="vertical">
 
-</RelativeLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@mipmap/rollpizza"
+            android:adjustViewBounds="false"
+
+            android:cropToPadding="false" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="¿Confirmar pago por: $34.9.00?"
+                android:layout_gravity="center"
+                android:layout_weight="1.6"
+                android:gravity="center"
+                android:textSize="20dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_weight="1">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Negar"
+                    android:layout_weight="1"
+                    android:backgroundTint="#d24646"
+                    android:textColor="#FFFFFFFF"
+                    android:background="@drawable/roundshapebtn"
+                    android:textSize="20dp" />
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Confirmar"
+                    android:layout_weight="1"
+                    android:backgroundTint="#4daa2e"
+                    android:textColor="#FFFFFFFF"
+                    android:background="@drawable/roundshapebtn"
+                    android:textSize="20dp" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    
+
+</LinearLayout>

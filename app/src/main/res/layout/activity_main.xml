@@ -24,7 +24,8 @@
                 android:layout_height="wrap_content"
                 android:text="Logout"
                 android:id="@+id/btnAtras"
-                android:background="#e9ae2f" />
+                android:backgroundTint="#e9ae2f"
+                android:background="@drawable/roundshapebtn"/>
             <!--<TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -109,8 +110,8 @@
                     android:text="Agregar\no retirar"
                     android:textSize="24px"
                     android:id="@+id/btnAgregarSaldo"
-                    android:background="#6aea50"
-                    />
+                    android:backgroundTint="#6aea50"
+                    android:background="@drawable/roundshapebtn"/>
             </LinearLayout>
         </LinearLayout>
         <TextView
@@ -164,6 +165,7 @@
             android:id="@+id/listView"
             android:backgroundTint="#ffffff"
             android:background="#242856"
+
             android:layout_weight="1">
 
         </ListView>
@@ -177,6 +179,7 @@
                 android:layout_height="match_parent"
                 android:text="Solicitar"
                 android:layout_weight="1"
+                android:background="@drawable/roundshapebtn"
                 android:backgroundTint="#dc6477"
                 android:id="@+id/btnRecibir"
                 />
@@ -185,6 +188,7 @@
                 android:layout_height="match_parent"
                 android:text="Pagar"
                 android:layout_weight="1"
+                android:background="@drawable/roundshapebtn"
                 android:backgroundTint="#60D4E0"
                 android:id="@+id/btnPagar"/>
             <Button
@@ -192,6 +196,7 @@
                 android:layout_height="match_parent"
                 android:text="Enviar"
                 android:layout_weight="1"
+                android:background="@drawable/roundshapebtn"
                 android:height="80px"
                 android:backgroundTint="#4AD44C"
                 android:id="@+id/btnEnviar" />

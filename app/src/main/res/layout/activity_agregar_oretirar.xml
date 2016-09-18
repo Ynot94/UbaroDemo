@@ -26,8 +26,9 @@
                 android:text="Cargar Saldo a\nUbaro"
                 android:layout_gravity="center"
                 android:id="@+id/btnCargarSaldo"
-                android:background="#4AD44C"
-                android:onClick="huboClick" />
+                android:backgroundTint="#4AD44C"
+                android:onClick="huboClick"
+                android:background="@drawable/roundshapebtn"/>
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -36,10 +37,11 @@
             android:gravity="center">
             <Button
                 android:layout_width="wrap_content"
+                android:background="@drawable/roundshapebtn"
                 android:layout_height="match_parent"
                 android:text="Retirar en efectivo"
                 android:id="@+id/btnRetirarEfectivo"
-                android:background="#dc6477"
+                android:backgroundTint="#dc6477"
                 android:onClick="huboClick" />
         </LinearLayout>
     </LinearLayout>
@@ -51,7 +53,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Cancelar"
-            android:gravity="left"
+            android:gravity="center"
+            android:background="@drawable/roundshapebtn"
             android:id="@+id/btnCancelar"
             android:onClick="huboClick" />
     </LinearLayout>
