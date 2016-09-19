@@ -31,5 +31,6 @@
         android:backgroundTint="#59b837"
         android:textColor="#f2e6e6"
         android:height="170px"
+        android:background="@drawable/roundshapebtn"
         android:id="@+id/btnConfirmar"/>
 </RelativeLayout>

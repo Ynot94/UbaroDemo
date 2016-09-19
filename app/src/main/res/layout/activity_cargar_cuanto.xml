@@ -124,6 +124,7 @@
                     android:id="@+id/btnBack"
                     android:layout_weight="1"
                     android:backgroundTint="#d24646"
+                    android:background="@drawable/roundshapebtn"
                     android:textColor="#f9f1f1" />
                 <Button
                     android:layout_width="wrap_content"
@@ -141,6 +142,7 @@
                     android:id="@+id/btnNext"
                     android:layout_weight="1"
                     android:backgroundTint="#4daa2e"
+                    android:background="@drawable/roundshapebtn"
                     android:textColor="#f8f0f0" />
             </LinearLayout>
         </LinearLayout>

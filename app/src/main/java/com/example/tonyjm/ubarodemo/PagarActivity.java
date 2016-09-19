@@ -26,15 +26,13 @@ public class PagarActivity extends AppCompatActivity {
 
     public void atrasClicked(View v){
         Intent objIntent = new Intent(PagarActivity.this, MainActivity.class);
+        objIntent.putExtra("CurrentUser",b.getString("CurrentUser"));
         startActivity(objIntent);
     }
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data)
     {
         super.onActivityResult(requestCode, resultCode, data);
-
-        String i = "&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&";
-        Log.d("Media: ", "Camera Terminated"+i);
         Intent objIntent = new Intent(PagarActivity.this, MainActivity.class);
         objIntent.putExtra("CurrentUser", b.getString("CurrentUser"));
         startActivity(objIntent);

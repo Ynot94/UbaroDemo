@@ -29,7 +29,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Tarjetas"
-                    android:background="#da5c8e"
+                    android:backgroundTint="#da5c8e"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnTarjetas"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -43,7 +44,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Efectivo"
-                    android:background="#22ce3e"
+                    android:backgroundTint="#22ce3e"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnEfectivo"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -65,7 +67,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Cuenta Bancaria"
-                    android:background="@color/colorPrimary"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnCuentaBancaria"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -79,7 +82,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Red Bitcoin"
-                    android:background="@android:color/holo_orange_light"
+                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnBitcoin"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -94,12 +98,12 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
+            android:orientation="horizontal">
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="Atras"
+                android:background="@drawable/roundshapebtn"
                 android:onClick="hizoClick"
                 android:id="@+id/btnAtras" />
         </LinearLayout>

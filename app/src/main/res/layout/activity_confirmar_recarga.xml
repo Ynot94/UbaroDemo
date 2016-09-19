@@ -8,11 +8,16 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.tonyjm.ubarodemo.ConfirmarRecargaActivity"
-    android:background="#1886AB">
+    android:background="#FFFFFF">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/ubarologo"
+            android:layout_gravity="center"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -21,14 +26,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text=""
+            android:text="Confir"
+
             android:textAlignment="center"
             android:textSize="100px"
-            android:id="@+id/lblConfirmarEnvio" />
+            android:id="@+id/lblConfirmarEnvio"
+            android:textColor="#000000" />
     </LinearLayout>
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="bottom">
@@ -38,18 +45,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_gravity="end">
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Confirmar"
-            android:textSize="49px"
-            android:layout_alignParentBottom="true"
-            android:backgroundTint="#59b837"
-            android:textColor="#f2e6e6"
-            android:height="170px"
-            android:id="@+id/btnConfirmar"
-            android:layout_weight="1"/>
+        android:gravity="center">
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -60,8 +56,20 @@
             android:textColor="#f2e6e6"
             android:height="170px"
             android:id="@+id/btnCancelar"
+            android:background="@drawable/roundshapebtn"
             android:layout_weight="1"/>
-
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Confirmar"
+            android:textSize="49px"
+            android:layout_alignParentBottom="true"
+            android:backgroundTint="#59b837"
+            android:textColor="#f2e6e6"
+            android:height="170px"
+            android:id="@+id/btnConfirmar"
+            android:background="@drawable/roundshapebtn"
+            android:layout_weight="1"/>
     </LinearLayout>
         </LinearLayout>
     </LinearLayout>

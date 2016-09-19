@@ -10,19 +10,35 @@
     tools:context="com.example.tonyjm.ubarodemo.PagarActivity"
     android:background="#1886AB"
     android:orientation="vertical">
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="atras"
-        android:id="@id/btnAtras"
-        android:onClick="atrasClicked" />
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="camara"
-        android:layout_gravity="center"
-        android:id="@+id/btnCamara"
-        android:onClick="camaraClicked" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Scan QR\ncode"
+            android:background="@drawable/roundshapebtn"
+            android:id="@+id/btnCamara"
+            android:onClick="camaraClicked" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="atras"
+            android:background="@drawable/roundshapebtn"
+            android:id="@id/btnAtras"
+            android:onClick="atrasClicked" />
+    </LinearLayout>
 
 
 </LinearLayout>

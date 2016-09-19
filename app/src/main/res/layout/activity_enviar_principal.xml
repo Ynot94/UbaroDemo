@@ -45,7 +45,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="A Miembro o E-Mail"
-                    android:background="#da5c8e"
+                    android:backgroundTint="#da5c8e"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnMiembro"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -59,7 +60,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="A UbaroCashier"
-                    android:background="#22ce3e"
+                    android:backgroundTint="#22ce3e"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnCashier"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -81,7 +83,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="A Cuenta Bancaria"
-                    android:background="@color/colorPrimary"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:background="@drawable/roundshapebtn"
                     android:id="@+id/btnCuentaBancaria"
                     android:onClick="hizoClick" />
             </LinearLayout>
@@ -95,8 +98,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="A Red Bitcoin"
-                    android:background="@android:color/holo_orange_light"
+                    android:backgroundTint="@android:color/holo_orange_light"
                     android:id="@+id/btnBitcoin"
+                    android:background="@drawable/roundshapebtn"
                     android:onClick="hizoClick" />
             </LinearLayout>
 
@@ -117,6 +121,7 @@
                 android:layout_height="match_parent"
                 android:text="Atras"
                 android:onClick="hizoClick"
+                android:background="@drawable/roundshapebtn"
                 android:id="@+id/btnAtras" />
         </LinearLayout>
     </LinearLayout>
